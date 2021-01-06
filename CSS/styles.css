@@ -1,0 +1,351 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+/* Navgiation Bar */
+.nav-bar {
+  list-style-type: none;
+  margin-bottom: 30Px;
+  margin-top: 2%;
+  padding-right: 10%;
+  overflow: hidden;
+  background-color: black;
+  font-size: 20px;
+}
+
+.nav-bar2{
+  padding-right: 60%;
+  list-style-type: none;
+  margin-bottom: 30Px;
+  margin-top: 2%;
+  overflow: hidden;
+  background-color: black;
+  font-size: 20px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #5D6D7E;
+}
+
+.active {
+  font-weight: bold;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  margin-left: 80px;
+}
+
+/* Pargraph */
+.content-section{
+  margin-top: 50px;
+  margin-left: 150px;
+  float:left;
+  }
+  h1{
+  font-family: Georgia, serif;
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  }
+  .name{
+    color: yellow;
+  }
+
+  .heading2{
+   font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+/* circluar image */
+
+.circluar-image{
+    display:block;
+    border-radius: 10px;
+    margin-left: 60%;
+    margin-top: 6%;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+}
+
+/* button section */
+
+.myButton{
+  font-family: arial;
+  color: #02050A;
+  font-size: 14px;
+  text-shadow: 1px 1px 1px #FFF0F1;
+  box-shadow: 1px 1px 1px #FFFF14;
+  padding: 10px 25px;
+  border-radius: 80px;
+  border: 2px solid #030508;
+  background: #FFE712;
+  background: linear-gradient(to top, #FFE712, #CFC104);
+  margin: 3% 50% 10% 15%;
+  cursor: pointer;
+}
+.myButton:hover {
+  color: #02050A;
+  background: #F7FF0F;
+  background: linear-gradient(to top, #CACFD2, #CACFD2);
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* About Section */
+
+.about-section{
+   position: relative;
+   bottom: 30%;
+   left: 40%;
+}
+.about-me{
+  position: relative;
+  left: 20%;
+  font-family: Georgia, serif;
+   font-size: 30px;
+   font-weight: bold;
+   color: #CFC104;
+}
+.about-head{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #85929E;
+}
+dl {
+    padding: 0.5em;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    line-height: 2;
+    font-size: 20px;
+  }
+  dt {
+    float: left;
+    clear: left;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+  }
+
+  dd {
+    margin: 0 100px 0 20px;
+    padding: 0 0 0.5em 0;
+    color: #AEB6BF;
+  }
+.blur-image{
+  border-radius: 8px;
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  right: 112%;
+  top:  13%;
+}
+/* Education Section */
+
+.educ-section{
+  position: absolute;
+  margin-top: 3%;
+}
+
+.educ-heading1{
+  font-family: Georgia, serif;
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+   color: #CFC104;
+}
+.educ-heading2{
+  padding-top: 40px;
+  padding-left: 50px;
+  text-align: center;
+  color: #85929E;
+}
+/* Box Section */
+
+.float-box{
+  padding:20px;
+  margin-top: 15%;
+}
+
+.child-box1{
+   width:50%;
+    float: left;
+    padding-top: 40px;
+    margin-left: 10%;
+}
+.child-box2{
+  margin-left: 10%;
+  padding-top: 40px;
+}
+
+.yellow-head{
+  color: #CFC104;
+
+}
+
+.place-head{
+  color: #AEB6BF;
+}
+
+/* Skills Section */
+
+.skill-section{
+  font-family: Georgia, serif;
+   font-size: 20px;
+   font-weight: bold;
+}
+.skills-title{
+  font-family: Georgia, serif;
+   font-size: 30px;
+   font-weight: bold;
+   color: #CFC104;
+   text-align: center;
+   padding-top: 10px;
+}
+
+.skills-list{
+display: inline;
+}
+
+.star-icon{
+  margin-left: 10%;
+}
+.star-icon1{
+  margin-left: 5%;
+}
+
+.star-icon2{
+  margin-left: 5%;
+}
+.star-icon3{
+  margin-left: 2%;
+}
+.star-icon4{
+  margin-left: 5%;
+}
+
+.skills1{
+  width:50%;
+   float: left;
+   padding-top: 10px;
+   margin-left: 10%;
+   word-spacing: 40px;
+   line-height: 3%;
+ }
+
+ .skills2{
+   padding-top: 25px;
+   word-spacing: 40px;
+   margin-right: 2%;
+   line-height: 10px;
+ }
+
+ .skills3{
+   word-spacing: 10px;
+    width:50%;
+    float: left;
+    margin-left: 10%;
+    line-height: 10px;
+    position: relative;
+    bottom: 50px;
+ }
+
+.skills4{
+  padding-top: 25px;
+  word-spacing: 40px;
+  margin-left: 60%;
+  line-height: 10px;
+}
+
+.heading-quotes{
+  padding-top: 40px;
+  text-align: center;
+  color: #85929E;
+}
+
+ /* Footer Section */
+.footer-section{
+  height: 400px;
+  background-color: #F4D03F;
+  color: black;
+  margin-top: 3%;
+}
+
+ .foot-headings{
+    float:left;
+    margin-left: 5%;
+    padding-top: 18px;
+    color: #2C3E50;
+ }
+
+ .foot-heading1{
+   font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+    padding-top: 40px;
+    margin-left: 10%;
+    word-spacing: 10px;
+    position: absolute;
+    line-height: 3;
+}
+
+a{
+  color: #2C3E50;
+}
+
+
+ .foot-heading3{
+   font-family: Georgia, serif;
+    font-weight: bold;
+    float:right;
+    margin-right: 25%;
+    margin-top: 12%;
+    position: relative;
+    bottom: 140px;
+ }
+ .contact-footer{
+   color: #2C3E50 ;
+   font-family: Georgia, serif;
+  font-weight: bold;
+   margin-left: 70%;
+   font-size: 20px;
+   line-height: 1;
+   position: relative;
+   bottom: 130px;
+ }
+
+ i{
+   padding-right:30px;
+ }
+
+ .container-fluid{
+   margin-left: 7%;
+   position: relative;
+   bottom: 180px;
+}
+
+.copyright{
+  position: relative;
+  bottom: 40px;
+  text-align: center;
+}
